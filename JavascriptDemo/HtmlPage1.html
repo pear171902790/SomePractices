@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        div{position: absolute; width: 300px;height: 300px;border: 1px solid red;background-color: yellowgreen;}
+    </style>
+</head>
+    <body>
+        <div id="div1" onmouseup="f_mup(this)" onmousedown="f_mdown(this);" onmousemove="f_move(this);"></div>
+        <div id="div2" onmouseup="f_mup(this)" onmousedown="f_mdown(this);" onmousemove="f_move(this);"></div>
+    
+        
+        <script>
+            var currentMoveObj = null;
+            var relLeft;
+            var relTop;
+            var isUp = false;
+            var f_mdown = function (obj) {
+                
+                isUp = false;
+                var event = window.event;
+                
+                    currentMoveObj = obj;
+                    currentMoveObj.setCapture();
+                    currentMoveObj.style.position = 'absolute';
+                    relLeft = event.x - currentMoveObj.style.pixelLeft;
+                    relTop = event.y - currentMoveObj.style.pixelTop;
+                
+            };
+            var f_mup = function (obj) {
+                isUp = true;
+                obj.releaseCapture();
+                currentMoveObj = null;
+            };
+            var f_move = function (obj) {
+                var event = window.event;
+                if (!isUp) {
+                    obj.style.pixelLeft = event.x - relLeft;
+                    obj.style.pixelTop = event.y - relTop;
+                }
+            };
+            
+        </script>
+    </body>
+</html>

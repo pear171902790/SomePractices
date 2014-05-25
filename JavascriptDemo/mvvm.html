@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div ctrl="x">
+<!--        <input type="text" model="str"/>-->
+        <textarea>{{str}}</textarea>
+    </div>
+    <script>
+        var str = 'hello world';
+
+        var view = $('textarea');
+        var viewModel
+
+
+
+
+//        $('#btn').click(function() {
+//            window.x.str = 'btn set';
+//        });
+//
+//
+//        var x = function() {
+//            x.str = '0';
+//        };
+//
+//
+//
+//        //??
+//        var vm = {};
+//        var $ctrl = $('[ctrl]');
+//        var $model = $('[model]');
+//        var ctrlName = $ctrl.attr('ctrl');
+//        var modelName = $model.attr('model');
+//        vm[modelName] = {};
+//        vm[modelName].update = function (data) {
+//            window[ctrlName][modelName] = data;
+//            this.gcz.update(data);
+//        };
+//        $model.bind('keyup', function() {
+//            vm[modelName].update($(this).val());
+//        });
+//        $ctrl.children().each(function() {
+//            if ($(this).val() === '{{' + modelName + '}}') {
+//                $(this).val(window[ctrlName][modelName] || '');
+//                $(this)[0].update = function(data) {
+//                    $(this).val(data);
+//                };
+//                vm[modelName].gcz = $(this)[0];
+//            }
+//        });
+    </script>
+</body>
+</html>

@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yield", "yield\yield.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute", "Attribute\Attribute.csproj", "{02992941-5E3F-43DC-A11F-EC8555A6FAAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControls", "WebControls\WebControls.csproj", "{81B54171-234E-4609-AD40-D8699ADF613F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{02992941-5E3F-43DC-A11F-EC8555A6FAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02992941-5E3F-43DC-A11F-EC8555A6FAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02992941-5E3F-43DC-A11F-EC8555A6FAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B54171-234E-4609-AD40-D8699ADF613F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B54171-234E-4609-AD40-D8699ADF613F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B54171-234E-4609-AD40-D8699ADF613F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B54171-234E-4609-AD40-D8699ADF613F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

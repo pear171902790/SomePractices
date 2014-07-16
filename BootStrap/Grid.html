@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+        #main {
+            height: 800px;
+        }
+
+        #top {
+            height: 30%;
+        }
+
+        #top-middle {
+            height: 70%;
+            background-color: burlywood;
+        }
+
+        #top-top, #top-bottom {
+            background-color: black;
+            color: white;
+        }
+
+        #top-top {
+            height: 20%;
+        }
+
+        #logo, #menu {
+            height: 100%;
+        }
+
+        #logo {
+            line-height: 48px;
+        }
+
+        #top-bottom {
+            height: 10%;
+        }
+
+        #main-menu {
+            height: 40%;
+        }
+
+        #menu-top {
+            height: 60%;
+        }
+
+        #middle {
+            height: 60%;
+        }
+
+        #middle-top, #middle-middle, #middle-bottom {
+            height: 30%;
+        }
+
+        #bottom {
+            height: 10%;
+        }
+
+        .pink {
+            border: 1px solid;
+            border-color: pink;
+        }
+
+        .red {
+            border: 1px solid;
+            border-color: red;
+        }
+
+        .blue {
+            border: 1px solid;
+            border-color: blue;
+        }
+
+        .yellow {
+            border: 1px solid;
+            border-color: yellow;
+        }
+
+        .black {
+            border: 1px solid;
+            border-color: black;
+        }
+
+        #txt-keywords {
+            width: 300px;
+            height: 50px;
+        }
+
+        #btn-search {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid black" id="outermost">
+        <div class="row-fluid yellow">
+            <div class="span8 offset2 pink" id="main">
+                <div id="top">
+                    <div class="row-fluid black" id="top-top">
+                        <div class="span6 text-center" id="logo">Peter Lee's Blog</div>
+                        <div class="span6" id="menu">
+                            <div id="menu-top"></div>
+                            <div id="main-menu" class="row-fluid">
+                                <div class="span3 text-center">Home</div>
+                                <div class="span3 text-center">Download</div>
+                                <div class="span3 text-center">Douments</div>
+                                <div class="span3 text-center">Contact Me</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="top-middle">
+                        <div style="height: 30%"></div>
+                        <div style="height: 40%; line-height: 100%;" class="text-center">
+                            <input type="text" id="txt-keywords" />
+                            <input type="button" id="btn-search" value="Search" />
+                        </div>
+                        <div style="height: 30%"></div>
+                    </div>
+                    <div id="top-bottom" ></div>
+                </div>
+                <div class="row-fluid red" id="middle">
+                    middle
+                    <div class="row-fluid" id="middle-top" style="margin-top: 5%">
+                        <div class="span2 offset1 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                    </div>
+                    <div class="row-fluid" id="middle-middle">
+                        <div class="span2 offset1 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                    </div>
+                    <div class="row-fluid" id="middle-bottom" style="margin-bottom: 5%">
+                        <div class="span2 offset1 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                        <div class="span2 offset2 blue"></div>
+                    </div>
+                </div>
+
+                <div class="row-fluid black" id="bottom">bottom</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>

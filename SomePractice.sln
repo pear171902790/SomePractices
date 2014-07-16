@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attribute", "Attribute\Attr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControls", "WebControls\WebControls.csproj", "{81B54171-234E-4609-AD40-D8699ADF613F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStrap", "BootStrap\BootStrap.csproj", "{8C68F882-C87B-4ED0-8361-47ADF0992670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{81B54171-234E-4609-AD40-D8699ADF613F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B54171-234E-4609-AD40-D8699ADF613F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B54171-234E-4609-AD40-D8699ADF613F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C68F882-C87B-4ED0-8361-47ADF0992670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C68F882-C87B-4ED0-8361-47ADF0992670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C68F882-C87B-4ED0-8361-47ADF0992670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C68F882-C87B-4ED0-8361-47ADF0992670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

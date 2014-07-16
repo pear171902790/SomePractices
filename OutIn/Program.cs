@@ -11,7 +11,7 @@ namespace OutIn
         {
             ITest<Chinese> cs=new Test<Chinese>();
             ITest<Person> ps = cs;
-            var b = (Beta<Person>)(p => Console.WriteLine(p.Name));
+            Beta<Person> b = (p => Console.WriteLine(p.Name));
             b(new Chinese());
             Console.WriteLine(new Chinese().Name);
             Console.ReadLine();

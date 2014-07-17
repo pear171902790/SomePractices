@@ -3,13 +3,25 @@
 <head>
     <title></title>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
     <style>
-        *{ margin: 0;padding: 0}
+        * {
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
 <body>
-    <div class="container-fluid">
-       
-    </div>
+    <form class="form-search">
+        <div class="input-append">
+            <input type="text" class="span2 search-query">
+            <button type="submit" class="btn">Search</button>
+        </div>
+        <div class="input-prepend">
+            <button type="submit" class="btn">Search</button>
+            <input type="text" class="span2 search-query">
+        </div>
+    </form>
+
 </body>
 </html>

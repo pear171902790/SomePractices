@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
     <style>
         html, body {
             height: 100%;
@@ -13,7 +14,7 @@
             padding: 0;
         }
 
-        
+
 
         #main {
             height: 800px;
@@ -61,7 +62,7 @@
             height: 60%;
         }
 
-        #middle-top, #middle-middle, #middle-bottom {
+        .middle-part{
             height: 30%;
         }
 
@@ -98,59 +99,102 @@
             width: 300px;
             height: 40px;
         }
-
-       
     </style>
 </head>
 <body>
-    <div class="container-fluid black" id="outermost">
-        <div class="row-fluid yellow">
-            <div class="span8 offset2 pink" id="main">
+    <div class="container-fluid" id="outermost">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2" id="main">
                 <div id="top">
-                    <div class="row-fluid black" id="top-top">
-                        <div class="span6 text-center" id="logo"><h3>Peter Lee's Blog</h3></div>
-                        <div class="span6" id="menu">
+                    <div class="row" id="top-top">
+                        <div class="col-md-6 text-center" id="logo">
+                            <h3>Peter Lee's Blog</h3>
+                        </div>
+                        <div class="col-md-6" id="menu">
                             <div id="menu-top"></div>
-                            <div id="main-menu" class="row-fluid">
-                                <div class="span3 text-center">Home</div>
-                                <div class="span3 text-center">Download</div>
-                                <div class="span3 text-center">Douments</div>
-                                <div class="span3 text-center">Contact Me</div>
+                            <div id="main-menu" class="row">
+                                <div class="col-md-3 text-center"><i class="icon-home icon-white"></i>Home</div>
+                                <div class="col-md-3 text-center"><i class="icon-circle-arrow-down icon-white"></i>Download</div>
+                                <div class="col-md-3 text-center"><i class="icon-folder-open icon-white"></i>Douments</div>
+                                <div class="col-md-3 text-center"><i class="icon-envelope icon-white"></i>ContactMe</div>
                             </div>
                         </div>
                     </div>
-                    <div id="top-middle" class="text-center" style="line-height: 167px;">
-                        
-                            <input type="text" id="txt-keywords" class="search-query"/>
-                            <input type="button" id="btn-search" class="btn btn-large" value="Search" />
-                        
+                    <div id="top-middle" class="row">
+                        <div style="height: 40%;"></div>
+                        <div style="height: 60%;" class="text-center">
+                            
+                            <input type="search" style="box-shadow: 0 0 8px rgba(82,168,236,.6);border-color: rgba(82,168,236,.8);width: 300px; height: 40px;border-radius: 25px; padding-left: 5px;" placeholder="Keywords..." />
+                                    <input type="button" class="btn btn-primary" value="Search" style="height: 35px;"/>
+                                
+                        </div>
                     </div>
-                    <div id="top-bottom" ></div>
+                    <div id="top-bottom" class="row"></div>
                 </div>
-                <div class="row-fluid red" id="middle">
-                    middle
-                    <div class="row-fluid" id="middle-top" style="margin-top: 5%">
-                        <div class="span2 offset1 blue"></div>
-                        <div class="span2 offset2 blue"></div>
-                        <div class="span2 offset2 blue"></div>
+                <div class="row red" id="middle">
+                    <div style="height: 5%"></div>
+                    <div class="row middle-part" >
+                        <div class="col-md-2 col-md-offset-1 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
                     </div>
-                    <div class="row-fluid" id="middle-middle">
-                        <div class="span2 offset1 blue"></div>
-                        <div class="span2 offset2 blue"></div>
-                        <div class="span2 offset2 blue"></div>
+                    
+                    <div class="row middle-part" >
+                        <div class="col-md-2 col-md-offset-1 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
                     </div>
-                    <div class="row-fluid" id="middle-bottom" style="margin-bottom: 5%">
-                        <div class="span2 offset1 blue"></div>
-                        <div class="span2 offset2 blue"></div>
-                        <div class="span2 offset2 blue"></div>
+                    
+                    <div class="row middle-part" >
+                        <div class="col-md-2 col-md-offset-1 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
+                        <div class="col-md-2 col-md-offset-2 text-center">
+                            <div style="height: 33%"><h1>J</h1>Jquery</div>
+                            <div style="height: 33%"><p>dskafjl;sajflsajf;lasj</p></div>
+                            <div style="height: 33%"><input type="button" value="goto" style="background-color: black;border-radius: 25px;"/></div>
+                        </div>
                     </div>
+                    
+                    <div style="height: 5%"></div>
                 </div>
 
-                <div class="row-fluid black" id="bottom">bottom</div>
+                <div class="row black" id="bottom">bottom</div>
             </div>
         </div>
     </div>
 </body>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
 </html>

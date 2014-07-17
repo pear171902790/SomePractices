@@ -57,14 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap\css\bootstrap-responsive.css" />
-    <Content Include="bootstrap\css\bootstrap-responsive.min.css" />
-    <Content Include="bootstrap\css\bootstrap.css" />
-    <Content Include="bootstrap\css\bootstrap.min.css" />
-    <Content Include="bootstrap\img\glyphicons-halflings-white.png" />
-    <Content Include="bootstrap\img\glyphicons-halflings.png" />
-    <Content Include="bootstrap\js\bootstrap.js" />
-    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.css" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap-3.2.0-dist\js\bootstrap.js" />
+    <Content Include="bootstrap-3.2.0-dist\js\bootstrap.min.js" />
     <Content Include="Grid.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="Web.config" />
@@ -73,6 +72,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap-theme.css.map" />
+    <Content Include="bootstrap-3.2.0-dist\css\bootstrap.css.map" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap-3.2.0-dist\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

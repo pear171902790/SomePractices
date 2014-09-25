@@ -18,5 +18,11 @@ namespace WebControls
                 Str = "Ajaxed";
             }
         }
+
+        protected void Btn2_Click(object sender, EventArgs e)
+        {
+            Txt1.Text = "111";
+            Txt2.Text = "222";
+        }
     }
 }

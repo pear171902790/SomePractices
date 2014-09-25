@@ -12,6 +12,7 @@
             <asp:ScriptManager runat="server"></asp:ScriptManager>
             <asp:UpdatePanel runat="server" ID="UP1">
                 <ContentTemplate>
+                    <asp:TextBox runat="server" ID="Txt1"></asp:TextBox>
                     <asp:TextBox runat="server" ID="TB1"></asp:TextBox><br />
                     <%=Str %><br />
                     <script>
@@ -22,6 +23,13 @@
                         });
                     </script>
                     <asp:Button runat="server" Text="Submit1" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            
+            <asp:UpdatePanel runat="server">
+                <ContentTemplate>
+                    <asp:TextBox runat="server" ID="Txt2"></asp:TextBox>
+                    <asp:Button runat="server" Text="Btn2" ID="Btn2" OnClick="Btn2_Click"/>
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>

@@ -31,6 +31,15 @@ namespace WebControls {
         protected global::System.Web.UI.UpdatePanel UP1;
         
         /// <summary>
+        /// Txt1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Txt1;
+        
+        /// <summary>
         /// TB1 control.
         /// </summary>
         /// <remarks>
@@ -38,5 +47,23 @@ namespace WebControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TB1;
+        
+        /// <summary>
+        /// Txt2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Txt2;
+        
+        /// <summary>
+        /// Btn2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Btn2;
     }
 }

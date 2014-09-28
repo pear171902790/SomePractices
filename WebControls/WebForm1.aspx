@@ -8,11 +8,29 @@
 </head>
 <body>
     <form id="form1" runat="server">
+<<<<<<< HEAD
     <div>
     <input type="text" name="aaa"/>
         <input type="text" name="aaa" style="display: none;"/>
         <asp:Button runat="server" Text="submit"/>
     </div>
+=======
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+        <div>
+            <asp:TextBox runat="server" ID="Txt"></asp:TextBox>
+<%--            <asp:UpdatePanel runat="server" UpdateMode="Conditional">--%>
+<%--                <ContentTemplate>--%>
+            <asp:HiddenField runat="server" ID="Hid1"/>
+                    <asp:Table runat="server" ID="Table1">
+                        <asp:TableRow runat="server">
+                            <asp:TableCell runat="server" Text="hehe"></asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                    <asp:Button runat="server" OnClick="Add_Row2" />
+<%--                </ContentTemplate>--%>
+<%--            </asp:UpdatePanel>--%>
+        </div>
+>>>>>>> origin/master
     </form>
 </body>
 </html>
